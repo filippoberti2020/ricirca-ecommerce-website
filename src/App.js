@@ -57,6 +57,7 @@ const App = () =>{
     useEffect(()=>{
         fetchProducts()
         fetchCart()
+        
     }, [])
      
 
